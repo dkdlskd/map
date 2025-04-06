@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MyApp",
+    "slug": "my-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.myapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCB-2te3cxT-AfYwAEYsJBtH4Vgo4r92xo"
+        }
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.myapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCB-2te3cxT-AfYwAEYsJBtH4Vgo4r92xo"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a4ad9192-a742-43c1-bec4-bbd3066184c8"
+      }
+    }
+  }
+}
